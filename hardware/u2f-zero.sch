@@ -448,4 +448,37 @@ F 3 "" H 3500 5750 60  0000 C CNN
 	1    3500 5750
 	1    0    0    -1  
 $EndComp
+$Comp
+L USB_A P1
+U 1 1 57F2AB61
+P 7800 3000
+F 0 "P1" H 8000 2800 50  0000 C CNN
+F 1 "USB_A" H 7750 3200 50  0000 C CNN
+F 2 "footprints:USB_A_CON" V 7750 2900 50  0001 C CNN
+F 3 "" V 7750 2900 50  0000 C CNN
+	1    7800 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 2900 8150 2900
+Wire Wire Line
+	8150 2900 8150 3300
+Wire Wire Line
+	8150 3300 7900 3300
+Wire Wire Line
+	7900 3300 7900 3450
+Text Label 7900 3450 3    60   ~ 0
+GND
+Text Label 7700 3450 3    60   ~ 0
+HD-
+Text Label 7800 3450 3    60   ~ 0
+HD+
+Text Label 7600 3450 3    60   ~ 0
++5V
+Wire Wire Line
+	7600 3300 7600 3450
+Wire Wire Line
+	7700 3300 7700 3450
+Wire Wire Line
+	7800 3300 7800 3450
 $EndSCHEMATC
